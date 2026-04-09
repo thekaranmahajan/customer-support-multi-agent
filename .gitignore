@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+backend/app/data/qdrant_data/
+backend/app/data/uploads/
+backend/app/data/customer_support.db

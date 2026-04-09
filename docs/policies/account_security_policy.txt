@@ -1,0 +1,11 @@
+Account Security and Access Policy
+
+Support agents must verify the customer email address and one recent account activity detail before making account-level changes.
+
+Password reset links expire after 30 minutes. Support agents must never send passwords directly to customers.
+
+Temporary contractor access is allowed only for enterprise accounts and must use a restricted role with an expiry date not longer than 14 days.
+
+Single sign-on changes for enterprise customers require confirmation from an approved admin contact on file.
+
+If suspicious login activity is reported, agents should recommend a password reset, revoke active sessions, and escalate the case to the security operations queue.

@@ -1,0 +1,14 @@
+fastapi[standard]
+streamlit
+requests
+pydantic
+langchain
+langchain-community
+langchain-ollama
+langchain-qdrant
+langchain-text-splitters
+langgraph
+qdrant-client
+pypdf
+httpx
+mcp

@@ -1,0 +1,8 @@
+{
+  "name": "customer-support-multi-agent-tools",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "mcp:inspector": "powershell -ExecutionPolicy Bypass -File .\\scripts\\start_mcp_inspector.ps1"
+  }
+}
