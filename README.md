@@ -49,7 +49,7 @@ README.md
 ## Setup
 
 ```powershell
-git clone <your-repo-url>
+git clone https://github.com/thekaranmahajan/customer-support-multi-agent.git
 cd customer-support-multi-agent
 python -m venv .venv
 .venv\Scripts\activate
