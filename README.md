@@ -49,7 +49,8 @@ README.md
 ## Setup
 
 ```powershell
-cd E:\IN_BUILT_HDD_DATA\customer-support-multi-agent
+git clone <your-repo-url>
+cd customer-support-multi-agent
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r backend\requirements.txt
@@ -66,14 +67,14 @@ ollama pull nomic-embed-text
 Start the backend:
 
 ```powershell
-cd E:\IN_BUILT_HDD_DATA\customer-support-multi-agent\backend
+cd backend
 uvicorn app.main:app --reload
 ```
 
 Start the Streamlit UI in another terminal:
 
 ```powershell
-cd E:\IN_BUILT_HDD_DATA\customer-support-multi-agent
+cd customer-support-multi-agent
 streamlit run streamlit_app.py
 ```
 
@@ -91,7 +92,7 @@ streamlit run streamlit_app.py
 Run locally with:
 
 ```powershell
-cd E:\IN_BUILT_HDD_DATA\customer-support-multi-agent\backend
+cd backend
 python -m app.mcp_server
 ```
 
@@ -108,7 +109,7 @@ MCP Inspector is a developer tool for testing and debugging the MCP server. The 
 This project now includes a helper script so you can launch Inspector more easily on Windows:
 
 ```powershell
-cd E:\IN_BUILT_HDD_DATA\customer-support-multi-agent
+cd customer-support-multi-agent
 npm run mcp:inspector
 ```
 
